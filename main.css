@@ -48,3 +48,14 @@ body {
     margin-top: 1.4em;
     font-size: 1.1em;
 }
+
+.rates{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Josefin Slab',serif;
+    font-size: 1.0em;
+}
+
+#underline{
+    text-decoration: underline;
+}
