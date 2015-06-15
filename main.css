@@ -1,0 +1,36 @@
+.nav a {
+    font-family: 'Josefin Slab', serif;  color: #FFFFFF;
+    font-size: 25px;
+    padding: 0.5em 0.3em;
+}
+
+.nav li {
+    display: inline-block;
+    float: none;
+}
+
+.nav {
+    float:none;
+    text-align: center;
+}
+
+html,body{
+    max-height: 100%;
+}
+body {
+    background-color: #8B4726
+}
+
+
+.header{
+    color: #FFFFFF;
+    font-family: 'Josefin Slab', serif;  text-align: center;
+    text-decoration: underline;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+.info{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Josefin Slab', serif;  
+}

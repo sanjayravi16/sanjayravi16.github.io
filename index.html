@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="main.css">
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="simple-slideshow-styles.css">
+        <script src="better-simple-slideshow.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <h1>SAS Plays BCC</h1>
+        </div>
+
+        <div class="nav">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Rates and Booking</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="bss-slides">
+            <figure>
+                <img src="image1.jpg"/>
+            </figure>
+            <figure>
+                <img src="image2.jpg"/>
+            </figure> 
+
+            <!-- more figures here as needed -->
+        </div>    
+
+        <script>
+            var opts = {
+                auto: {
+                    speed: 2000,
+                    pauseOnHover: true
+                },
+                fullScreen: false,
+                swipe: true
+            };
+            makeBSS('.bss-slides', opts);
+        </script>
+
+    </body>
+
