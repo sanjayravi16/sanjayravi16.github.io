@@ -34,3 +34,17 @@ body {
     color: #FFFFFF;
     font-family: 'Josefin Slab', serif;  
 }
+
+.overview{
+    margin-top: 1.6em;
+    font-size: 1.25em;
+}
+
+.player-name{
+    text-decoration: underline;
+}
+
+#rowTwo{
+    margin-top: 1.4em;
+    font-size: 1.1em;
+}
